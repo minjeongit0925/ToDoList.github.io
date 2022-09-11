@@ -1,0 +1,108 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 100%;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgba( 255, 255, 255, 0.5 );
+
+    box-shadow: 7px 7px 39px rgba(0, 0, 0, 0.5);
+}
+
+#weather {
+    color: white;
+    font-size: 20px;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+    background-color: rgba(135, 164, 243, 0.5);
+}
+
+#login-form {
+    margin: 10px auto;
+}
+
+#greeting {
+    font-size: 25px;
+}
+
+#clock {
+    font-size: 50px;
+
+}
+
+.three {
+    height: 50px;
+    width: 0px;
+    border-right: 0px;
+    border: 2px solid black;
+}
+.TODO {
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.btn-3d {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    padding: 3px 5px;
+    color: white;
+    margin: 20px 10px 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    text-align: center;
+    transition: top .01s linear;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.btn-3d:active {
+    top: 5px;
+}
+
+.btn-3d.blue:hover   {background-color: #699DD1;}
+
+.btn-3d.blue {
+    background-color: #6DA2D9;
+    box-shadow: 0 0 0 1px #6698cb inset,
+            0 0 0 2px rgba(255,255,255,0.15) inset,
+            0 5px 0 0 rgba(110, 164, 219, .7),
+            0 5px 0 1px rgba(0,0,0,.4),
+            0 5px 5px 1px rgba(0,0,0,0.5);
+}
+.btn-3d.blue:active {
+    box-shadow: 0 0 0 1px #6191C2 inset,
+            0 0 0 2px rgba(255,255,255,0.15) inset,
+            0 0 0 1px rgba(0,0,0,0.5);
+}
